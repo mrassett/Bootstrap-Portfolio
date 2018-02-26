@@ -133,16 +133,72 @@ div.col-sm-6 {
     padding: 0 0px;
   }
 
-  .section img {
+figure img {
     margin-top: 8px;
     padding: 3%;
     float:left;
-    opacity: 1;
+    opacity: .9;
     width: 100%;
+    position: relative;
 }
+p.first{
+    opacity: .7;
+    margin-top: -10%;
+    position: absolute;
+    top: 32%;
+    background: #4aaaa5;
+    text-align: center;
+    color: white;
+    width: 94.5%;
+    margin-left: 6.5px;
     
+}
+p.caption{
+    opacity: .7;
+    margin-top: -10%;
+    position: absolute;
+    top: 49%;
+    background: #4aaaa5;
+    text-align: center;
+    color: white;
+    width: 94.5%;
+    margin-left: 6.5px;
+    
+}
+p.other{
+    background: #4aaaa5;
+    text-align: center;
+    color: white;
+    opacity: .6;
+    position: absolute;
+    width:94%;
+    top: 90%;
+    margin-left:7px;
 
- 
+}
+p.second{
+    background: #4aaaa5;
+    text-align: center;
+    color: white;
+    opacity: .6;
+    position: absolute;
+    width:94%;
+    top: 60%;
+    margin-left:7px;
+
+}
+p.last{
+    background: #4aaaa5;
+    text-align: center;
+    color: white;
+    opacity: .6;
+    position: absolute;
+    width:94%;
+    top: 93%;
+    margin-left:7px;
+}
+
+
 /* Contact Form */
 form{
     color: #666666;
